@@ -1,0 +1,103 @@
+body {
+    background: url(/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+}
+
+header > img {
+    align-items: center;
+    align-content: center;
+    padding-top: 5%;
+    width: 15%;
+}
+
+header > h1 {
+    color: rgb(0, 220, 0);
+    font-size: 40px
+}
+
+/* Container */
+
+div.container {
+    width: 65%;
+    background-color: #00000070;
+    border-radius: 15px;
+    margin: auto;
+}
+
+/* Navigation */
+
+nav{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(0, 220, 0);
+    padding: 10px;
+}
+
+nav > button {
+    font-size: 13px;
+}
+
+
+/* Main */
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+main > div {
+    width: 50%;
+}
+
+main > div{
+    margin-top: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+main div h2 {
+    display: inline-block;
+}
+
+/* Right sided arrow before address */
+.address:before {
+    content: "\2192";
+}
+
+/* Level of charge */
+
+#yellow-box {
+    height: 30px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+#green-box {
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: green;
+}
+#red-box {
+    height: 30px;
+    width: 25%;
+    border-radius: 10px;
+    background-color: red;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+    margin: auto;
+}
